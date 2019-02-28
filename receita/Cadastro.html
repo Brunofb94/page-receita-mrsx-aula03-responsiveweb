@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Cadastrar Receitas </title>
+        <meta charset="utf-8">
+    <body>
+        <div id="cabecalho">
+            <div id="banner">
+                <!-- insert image-->
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="Cadastro.html" target="_blank">Cadastrar Receita </a></li>
+                    <li><a href="#"> Categorias de Receitas </a></li>
+                    <li><a href="#"> Contato</a></li>
+                </ul>
+            </div>
+            <div id="linksimportantes">
+                <p id="redessociais"> 
+                        <img src="image for page/facebook.png">
+                        <img src="image for page/instagram.png">
+                        <img src="image for page/twitter.png">
+                </p>    
+                <p>
+                    <input type="search" name="pesquisa"> <!-- entrada de dados-->
+                    <input type="image" name"lupa" alt="Search" src="image for page/search.png">
+
+                </p>
+            </div>
+        </div>
+       
+        <div id="corpo">
+           <h1> Nova Receita</h1>
+        <p><label for="nome"> Nome da Receita: 
+            <input type="text" name="nome" id="nome" placeholder="Digite o nome da receita" "size="50""/>
+            
+        </label></p>
+        
+        <p><label for="foto"> Escolher foto da receita:
+            <input type="label" name="foto" id="foto" />
+        </label></p>
+        <p>
+            <label for="descricao">
+                <textarea id="descricao" name ="descricao"placeholder= "Digite uma descrição da receita" cols="30" rows="10"></textarea>
+            </label>
+        </p>
+        <p>
+            <fieldset>
+                <legend> Novo Ingrediente</legend>
+                <p>
+                    <label for="qtde"> Quantidade :
+                        <input type="number" name"qtde" id = "qtde" min="1" max="1000" >
+                    </label>
+                </p>
+                <p>
+                    <label for="unidade"> Unidade de Medida
+                        <select name="" id="">
+                            <option value="cs"> Colher de sopa</option>
+                            <option value="cc">Colher de chás</option>
+                            <option value="x">Xícaras</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label for="descingrediente"> Descrição:
+                        <input type="text" name="descingrediente" id="descingrediente"
+                        size="30" placeholder="Digite o nome do ingrediente">
+                    </label>
+                </p>
+                <button> Adicionar ingrediente </button>
+            </fieldset>
+        </p>
+        <p>
+            <h4>ingredientes adicionados</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Quantidade</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody id="tbl-ingredientes">
+                    <tr id="ingrediente">
+                        <td id="qrde-ingrediente"></td>
+                        <td id="desc-ingrediente"> </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </p>
+         <p>
+             <label for="modo-preparo">
+                 <textarea name="modo-preparo" id="modo-preparo" cols="30" rows="10"></textarea>
+             </label>
+         </p>  
+        </div>
+        <div id="rodape"> 
+            <p>Desenvolvido por: 1TDSJ   - FIAP&copysr; 2019</p>
+            <p id="redessociais"> 
+                    <img src="image for page/facebook.png">
+                    <img src="image for page/instagram.png">
+                    <img src="image for page/twitter.png">
+            </p>    
+        </div>
+    
+    </body>
+    </head>
+</html>
