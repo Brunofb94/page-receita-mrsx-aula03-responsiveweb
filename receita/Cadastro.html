@@ -4,7 +4,7 @@
         <title> Cadastrar Receitas </title>
         <meta charset="utf-8">
     <body>
-        <div id="cabecalho">
+        <div id="cabecalho"> <!--Começo da div cabeçalho-->
             <div id="banner">
                 <!-- insert image-->
             </div>
@@ -28,19 +28,21 @@
 
                 </p>
             </div>
-        </div>
+        </div> <!--fim da div cabeçalho-->
        
-        <div id="corpo">
+        <div id="corpo"> 
            <h1> Nova Receita</h1>
            <form action="salvar.jsp" method="POST"> <!-- açao que puxa tudo para o servidor salvando-->
-        <p><label for="nome"> Nome da Receita: 
-            <input type="text" name="nome" id="nome" placeholder="Digite o nome da receita" "size="50""/>
+            <p><label for="nome"> Nome da Receita: 
+                <input type="text" name="nome" id="nome" placeholder="Digite o nome da receita" "size="50""/>
             
-        </label></p>
+                </label>
+            </p>
         
-        <p><label for="foto"> Escolher foto da receita:
-            <input type="label" name="foto" id="foto" />
-        </label></p>
+                <p><label for="foto"> Escolher foto da receita:
+                    <input type="label" name="foto" id="foto" />
+                    </label>
+                </p>
         <p>
             <label for="descricao">
                 <textarea id="descricao" name ="descricao"placeholder= "Digite uma descrição da receita" cols="30" rows="10"></textarea>
@@ -91,11 +93,11 @@
 
         </p>
          <p>
-             <label for="modo-preparo">
+             <label for="modo-preparo"> Descrição da receita:
                  <textarea name="modo-preparo" id="modo-preparo" cols="30" rows="10"></textarea>
              </label>
          </p>  
-        </div>
+       
         <p>
             Dificuldade:
             <input id= "facil"type="radio" name="dificuldade" value="f">
@@ -122,33 +124,53 @@
             Acompanhamento: <br/>
             <table>
                 <tr>
-                    <thead> <!-- inicio do thead-->
                     <td>
                         <label>
                             <input id = "arroz"type="checkbox" name="Acompanhamento" value="Arroz">
-                         Arroz</label>
+                         Arroz
+                        </label>
                     </td>
                     <td>
                         <label>
                             <input type="checkbox" name="Acompanhamento" value="feijao">
-                        Feijao</label>
+                        Feijao
+                        </label>
                     </td>
-                     </thead> <!-- fim do thead-->
                     <td>
                         <label>
                             <input id = "Batata"type="checkbox" name="Acompanhamento" value="Batata">
-                         Batata</label>
+                         Batata
+                        </label>
                     </td>
+                </tr> 
+                <tr> 
                     <td>
                         <label>
                             <input type="checkbox" name="Acompanhamento" value="peixe">
-                        peixe</label>
+                        peixe
+                        </label>
                     </td>
-
-                </tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="Acompanhamento" value="pure de Batata">
+                        pure de Batata
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="Acompanhamento" value="Carne de churrasco">
+                        carne de churrasco
+                        </label>
+                    </td>
+                </tr>  
+                
             </table>
         </p>
+        <p>
+			<input type="submit" value="Salvar Receita">
+		</p>
         </form> <!-- termino do formulario-->
+        </div> <!--fim da div corpo-->
         <div id="rodape"> 
             <p>Desenvolvido por: 1TDSJ   - FIAP&copysr; 2019</p>
             <p id="redessociais"> 
