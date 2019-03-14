@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font: 11px Arial,Verdana, Sans-serif black;
+}
+#redessociais img{
+    text-decoration: none;
+
+}
+#menu {
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgba(49, 3, 42);
+}
+#menu li {
+    display: inline-block;
+  
+}
+#menu a {
+    display: inline-block;
+    padding: 10px;
+    font: 20px arial;
+    border-right: 2px #000 solid;
+    font-weight: bold;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid; 
+    border-top: 2px black solid;
+}
+#menu li:last-child{
+    border-right: none;
+}
+#menu a{
+    text-decoration: none;  
+    color:white; 
+
+}
+#menu a:hover{
+    background-color: blue;
+    color:red;
+    padding: 10px;
+    text-decoration: black;
+
+}
+#menu a:visited{
+    text-decoration: #000;
+}
+
+#banner {
+
+    background-color:rgba(49, 3, 42); 
+    padding: 40px;
+    text-align: center;
+}
+#banner h1 {
+    color:white;
+    font-size: 30px;
+    font-family: Verdana,Arial, sans-serif;
+}
+#S-left {
+    background-color: purple;
+    width: 60%;
+    float: left;
+
+}
+#S-right {
+    background-color: green;
+    width: 30%;
+    float: left;
+}
+#rodape {
+    clear: both;
+}
